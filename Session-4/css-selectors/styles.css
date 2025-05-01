@@ -1,0 +1,40 @@
+/* div > p {
+  color: red;
+} */
+
+/* div p {
+  color: red;
+} */
+
+/* div + p {
+  color: purple;
+} */
+
+/* div ~ p {
+  color: purple;
+} */
+
+/* a:link {
+  color: yellow;
+}
+
+a:visited {
+  color: red;
+}
+
+a:hover {
+  color: blue;
+}
+
+div p:nth-of-type(even) {
+  color: red;
+} */
+
+/* div p:nth-child(1)::first-letter {
+  font-size: 40px;
+  font-style: italic;
+} */
+
+p[title="one"] {
+  color: blue;
+}

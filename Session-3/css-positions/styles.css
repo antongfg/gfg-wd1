@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap");
+
+body {
+  font-family: "Bungee Spice", sans-serif;
+}
+
+.parent {
+  background-color: chartreuse;
+  position: relative;
+}
+
+.child1 {
+  background-color: chocolate;
+  position: static;
+  /* top: 0; */
+  /* bottom: 5px; */
+  left: 30px;
+  /* right: 50px; */
+}
+
+.child2 {
+  background-color: aqua;
+}
+
+.child3 {
+  background-color: palevioletred;
+}

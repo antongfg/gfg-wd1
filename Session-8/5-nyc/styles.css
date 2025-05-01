@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Vina+Sans&display=swap");
+
+body {
+  font-family: "Lato", sans-serif;
+  background-image: url("https://images.hdqwalls.com/wallpapers/the-last-one-4k-ic.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+.countdown {
+  display: flex;
+  transform: scale(2);
+}
+
+.time {
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.year {
+  font-size: 200px;
+  margin: 50px;
+  opacity: 0.4;
+}
