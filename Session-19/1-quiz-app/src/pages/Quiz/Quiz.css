@@ -1,0 +1,9 @@
+.quiz {
+  padding: 32px;
+  text-align: center;
+}
+
+.timer {
+  font-size: 20px;
+  margin-bottom: 16px;
+}

@@ -1,0 +1,25 @@
+.card {
+  background: #fff;
+  color: #111;
+  border-radius: 8px;
+  padding: 24px;
+  margin-top: 16px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.dark .card {
+  background: #2d2d2d;
+  color: #fff;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}

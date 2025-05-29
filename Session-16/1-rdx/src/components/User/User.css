@@ -1,0 +1,30 @@
+.user {
+  box-shadow: 10px 8px 15px -2px rgba(135, 135, 135, 0.37);
+  background: white;
+  margin-bottom: 30px;
+  width: 600px;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.user h2,
+.user h3 {
+  color: rgba(0, 0, 0, 0.547);
+  padding-bottom: 15px;
+}
+
+.user span {
+  font-weight: 500;
+  color: black;
+}
+
+.user__delete {
+  border: none;
+  outline: none;
+  padding: 10px;
+  width: 100px;
+  background-color: rgba(255, 0, 0, 0.845);
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+}

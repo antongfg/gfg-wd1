@@ -1,0 +1,98 @@
+/* Project.css */
+
+.project-card {
+  background-color: #ffffff;
+  border: 1px solid #d9e2ec;
+  border-left: 6px solid #3399ff;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+}
+
+.project-card h3 {
+  margin: 10px 0;
+  font-size: 1.2rem;
+  color: #004080;
+}
+
+.project-card p {
+  margin: 6px 0;
+  color: #333;
+}
+
+.project-dates {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.project-team {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 8px;
+  align-items: center;
+}
+
+.project-team div {
+  background-color: #110edd;
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 0.85rem;
+  color: #ffffff;
+}
+
+/* Priority Styles */
+.priority {
+  font-weight: bold;
+  padding: 4px 10px;
+  border-radius: 12px;
+  display: inline-block;
+  font-size: 0.85rem;
+  margin-top: 10px;
+}
+
+.priority.High {
+  background-color: #ff4d4d;
+  color: white;
+}
+
+.priority.Medium {
+  background-color: #ffcc00;
+  color: #333;
+}
+
+.priority.Low {
+  background-color: #00cc66;
+  color: white;
+}
+
+/* Status Badge */
+.status-badge {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.status-badge.Completed {
+  background-color: #66cc66;
+  color: white;
+}
+
+.status-badge.Planned {
+  background-color: #b3b3ff;
+  color: white;
+}
+
+.status-badge.In_Progress {
+  background-color: #3399ff;
+  color: white;
+}

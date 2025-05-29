@@ -1,0 +1,67 @@
+/* Report.css */
+
+.report-card {
+  border: 1px solid #cfd8dc;
+  border-left: 6px solid #3399ff;
+  border-radius: 8px;
+  padding: 16px;
+  background-color: #ffffff;
+  box-shadow: 0 1px 4px #0000000d;
+  transition: transform 0.2s ease;
+  margin-bottom: 20px;
+}
+
+.report-card:hover {
+  transform: translateY(-4px);
+}
+
+.report-title {
+  font-size: 1.3rem;
+  color: #003366;
+  margin-bottom: 8px;
+}
+
+.report-meta {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.report-description {
+  margin-bottom: 12px;
+  color: #333;
+}
+
+.report-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.report-tag {
+  background-color: #e6f0ff;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  color: #004080;
+  font-weight: 500;
+}
+
+.report-status {
+  font-weight: bold;
+  padding: 4px 10px;
+  border-radius: 12px;
+  display: inline-block;
+  font-size: 0.8rem;
+  margin-bottom: 10px;
+}
+
+.report-status.Reviewed {
+  background-color: #4caf50;
+  color: white;
+}
+
+.report-status.Pending {
+  background-color: #ff9800;
+  color: white;
+}
